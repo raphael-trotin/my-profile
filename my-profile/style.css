@@ -1,0 +1,129 @@
+/*Colors and fonts */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6f8;
+  text-align: center;
+  color: rgb(30, 30, 30);
+}
+
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.profile-pic {
+  width: 300px;
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Titres */
+h1, h2, h3 {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #2c3e50;
+}
+
+
+h2 {
+  font-weight: 700;
+}
+
+/* Liens */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Bouton */
+.btn-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dc052d;
+  color: white;
+  border-radius: 8px;
+}
+.btn-blue:hover {
+  background-color: #a10421;
+}
+
+
+/* Liste inline */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.list-inline a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  color: #333;
+  transition: 0.2s;
+}
+
+.list-inline a:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Instagram style */
+.instagram:hover {
+  background-color: #e1306c;
+  color: white;
+}
+
+/* LinkedIn style */
+.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+/* Icônes */
+.social-icon i {
+  font-size: 18px;
+}
+
+
